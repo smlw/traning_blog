@@ -5,13 +5,15 @@
   "author": "Alexander <smlwmy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start" : "node index.js",
-    "dev" : "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "devDependencies": {
     "eslint": "^5.0.1",
     "eslint-plugin-node": "^6.0.1",
-    "nodemon": "^1.17.5"
+    "nodemon": "^1.17.5",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1"
   },
   "engines": {
     "node": ">=6.0.0"
