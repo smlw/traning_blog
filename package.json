@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alexander <smlwmy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start" : "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-node": "^6.0.1",
+    "nodemon": "^1.17.5"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
