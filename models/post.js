@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const $chema = mongoose.$chema;
+const Schema = mongoose.Schema;
 
 const schema = new Schema({
     title: {
