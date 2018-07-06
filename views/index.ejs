@@ -11,10 +11,14 @@
     <a href="/create">Add</a>
 
     <ul>
-        <% arr.forEach(function(item){ %>
+        <% posts.forEach(function(post){ %>
             <li>
-                <%= item %>
+                <%= post.title %>
             </li>
+            <li>
+                <%= post.body %>
+            </li>
+            <hr>
         <% }); %>
     </ul>
 </body>
