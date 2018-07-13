@@ -1,5 +1,7 @@
 # traning_blog
-Internet shop
+Internet shop with ****NodeJS****
 
-## Stack ##
-NodeJS
+# Stack
+**NodeJS /**
+**Express /**
+**Mongo**
